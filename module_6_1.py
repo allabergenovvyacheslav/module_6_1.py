@@ -70,6 +70,12 @@ class Fruit(Plant):
         self.name = name
         self.edible = True
 
+# Так будет верно, но на этом дз мы еще не работали с super()
+# class Fruit(Plant):
+#     def __init__(self, name):
+#         super().__init__(name)
+#         self.edible = True
+
 
 a1 = Predator('Волк с Уолл-Стрит')
 a2 = Mammal('Хатико')
